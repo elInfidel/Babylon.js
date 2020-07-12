@@ -184,6 +184,7 @@ declare module "babylonjs-sandbox/index" {
 declare module "babylonjs-sandbox/legacy/legacy" {
     export * from "babylonjs-sandbox/index";
 }
+
 declare module "babylonjs-sandbox" {
     export * from "babylonjs-sandbox/legacy/legacy";
 }
@@ -344,4 +345,4 @@ declare module SANDBOX {
         render(): JSX.Element;
         static Show(hostElement: HTMLElement): void;
     }
-}
+}

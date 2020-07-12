@@ -3032,4 +3032,4 @@ declare module INSPECTOR {
         calculateMove(): string;
         render(): JSX.Element;
     }
-}
+}

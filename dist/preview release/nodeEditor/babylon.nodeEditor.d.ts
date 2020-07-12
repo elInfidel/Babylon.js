@@ -1534,4 +1534,4 @@ declare module NODEEDITOR {
          */
         static Show(options: INodeEditorOptions): void;
     }
-}
+}
